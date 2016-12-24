@@ -1,2 +1,2 @@
 # Varclump-docs
-Varclump miscellaneous documents
+VarClump miscellaneous documents
