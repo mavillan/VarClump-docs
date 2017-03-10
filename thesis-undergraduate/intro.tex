@@ -1,0 +1,15 @@
+\chapter{Introducción}
+
+Uno de los problemas principales  existentes hoy en astronomía, es el desarrollo de mecanismo automatizados para la correcta identificación de clumps, y el análisis estructural de estos en las nubes moleculares.
+
+Cada observación de tales nubes puede contener una cantidad considerable \textit{núcleos}, \textit{cluster} y \textit{clumps}. Hace no mucho tiempo, la tarea de identificación de tales estructuras era realizada manualmente por astrónomos, pero esto ya no es posible debido a los siguientes razones:
+\begin{enumerate}
+    \item Tales métodos manuales no escalan tan rápido como la generación de nuevos datos, tales como los generados por ALMA fase 2.
+    \item El tamaño de las imágenes es enorme y puede contener cientos/miles de estructuras de interés. Por lo que puede requerir una cantidad muy alta de tiempo hacerlo manualmente.
+    \item Los cubos espectroscópicos de datos son difíciles de manipular y visualizar al día de hoy. Adicionalmente la resolución en frecuencia de tales cubos es cada vez más fina.
+    \item Los resultados de identifación de clumps realizados por astrónomos (manualmente), usualmente no calzan pues entre ellos tienen diferentes concepciones y definiciones acerca de que es un clump y la cómo se relacionan entre ellos (especialmente en los casos de emisiones conjuntas).
+\end{enumerate}
+
+La motivación de los métodos computacionales, es poder automatizar estas tareas eliminado el juicio imparcial del astrónomo, y al mismo tiempo poder analizar eficientemente gran cantidad de datos.
+
+En lo que sigue se realiza una descripción formal del problema, definiendo en primer lugar que se entiende por \textit{clump}. Luego se describen las técnicas computacionales ocupadas hoy en día para resolver la problemática de identificación de tales estructuras.  Por último se da una breve descripción del enfoque variacional, y como este ha sido aplicado a otras áreas similares con muy buenos resultados.

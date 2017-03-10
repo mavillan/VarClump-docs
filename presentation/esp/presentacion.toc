@@ -1,0 +1,13 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Objetivo General}{3}{0}{1}
+\beamer@sectionintoc {2}{Definici\IeC {\'o}n del Problema}{4}{0}{2}
+\beamer@subsectionintoc {2}{1}{Definiciones Preliminares}{4}{0}{2}
+\beamer@subsectionintoc {2}{2}{Cubos Espectrosc\IeC {\'o}picos de Datos}{6}{0}{2}
+\beamer@subsectionintoc {2}{3}{Principales dificultades}{7}{0}{2}
+\beamer@subsectionintoc {2}{4}{Algoritmos de detecci\IeC {\'o}n de Clumps}{8}{0}{2}
+\beamer@sectionintoc {3}{El Enfoque Variacional}{13}{0}{3}
+\beamer@subsectionintoc {3}{1}{Definici\IeC {\'o}n}{13}{0}{3}
+\beamer@subsectionintoc {3}{2}{Aplicaciones}{15}{0}{3}
+\beamer@subsectionintoc {3}{3}{Aplicaci\IeC {\'o}n al problema}{18}{0}{3}
+\beamer@sectionintoc {4}{Objetivos de la Memoria}{22}{0}{4}

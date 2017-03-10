@@ -1,0 +1,71 @@
+\documentclass[a4paper, 11pt]{report}
+
+\usepackage{usmtesis/usmtesis}
+\usepackage[spanish]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{fourier}
+\usepackage{hyperref}
+\usepackage{natbib}
+%%% AMS packages %%%
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}	
+\usepackage{relsize}
+%%% Graficos %%%
+\usepackage{graphicx}
+%%% Algoritmos %%%
+\usepackage[chapter]{algorithm}
+\usepackage{algpseudocode}
+%%% Otros
+\usepackage{tocbibind}
+\usepackage[outdir=./]{epstopdf}
+\usepackage{subcaption}
+\usepackage{listings}
+
+%%% Tablas
+\usepackage{tabularx,ragged2e,booktabs,caption}
+\newcolumntype{C}[1]{>{\Centering}m{#1}}
+\renewcommand\tabularxcolumn[1]{C{#1}}
+%%% Nombre de algoritmo
+\renewcommand{\listalgorithmname}{Índice de algoritmos}
+%\include{miscomandos}
+
+\author{Martín Villanueva Ahumada}
+\profguia{Claudio Torres López}
+\profcorr{Mauricio Araya López}
+\university{Universidad Técnica Federico Santa María}
+\title{Representación y Descripción de Fuentes Astronómicas: Un enfoque Desde el Cálculo Variacional}
+\ingciv
+\makeindex
+\settocbibname{Bibliografí­a}
+\hyphenation{ma-crosco-pic}
+
+
+\begin{document}
+	\titlep
+	\signaturepage
+	%\include{agradecimientos}
+	%\include{resumen}
+	\tableofcontents
+	\listoffigures 
+	\listoftables
+	\listofalgorithms
+	\addcontentsline{toc}{chapter}{Índice de algoritmos}
+	\newpage
+
+	
+	\include{agradecimientos}
+	\include{resumen}
+	\include{intro}
+	\include{previo}
+	\include{formulacion}
+	\include{diseno}
+	\include{initial}
+	\include{optimizacion}
+	\include{experimentos}
+	\include{conclusiones}
+	\include{anexos}
+	\bibliographystyle{unsrt}
+	\bibliography{references}
+\end{document}
